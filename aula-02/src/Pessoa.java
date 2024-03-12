@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Pessoa {
-    String nome;
-    String email;
-    int idade;
+    private String nome;
+    private String email;
+    private int idade;
 
     public String getPessoa(){
         return "\n"+ "Dados:\n" + "Nome: " + nome + "\n" +
